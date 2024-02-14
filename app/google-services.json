@@ -1,0 +1,74 @@
+{
+  "project_info": {
+    "project_number": "726813012228",
+    "project_id": "lalitha-finance",
+    "storage_bucket": "lalitha-finance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726813012228:android:bb93e3cd32a6e67972e051",
+        "android_client_info": {
+          "package_name": "com.example.eathealthy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726813012228-ufodu1856v0013ia3lvcf7aorj46oi8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi4y9IOuAaokfDnWkoxYR6aTIr3IgG6lM"
+        },
+        {
+          "current_key": "AIzaSyCJbucAiF1NmntiiZ-uaw0fBBZFzS-bSzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726813012228-ufodu1856v0013ia3lvcf7aorj46oi8p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726813012228:android:f6bb5811a5b223e972e051",
+        "android_client_info": {
+          "package_name": "com.example.lalithafinance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726813012228-ufodu1856v0013ia3lvcf7aorj46oi8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi4y9IOuAaokfDnWkoxYR6aTIr3IgG6lM"
+        },
+        {
+          "current_key": "AIzaSyCJbucAiF1NmntiiZ-uaw0fBBZFzS-bSzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726813012228-ufodu1856v0013ia3lvcf7aorj46oi8p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

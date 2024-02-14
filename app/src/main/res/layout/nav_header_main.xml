@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/LLTotalDrawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LLNavUser"
+        android:orientation="vertical"
+        android:background="@color/red_color"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <TextView
+            android:id="@+id/TvUserNameNavi"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="20dp"
+            android:text=""
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:id="@+id/TvUserNaviMobile"
+            android:layout_below="@+id/TvUserNameNavi"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="18dp"
+            android:visibility="gone"
+            android:layout_marginLeft="40dp"
+            android:text="728xxxxxxx"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:id="@+id/TvUserNaviFactor"
+            android:layout_below="@+id/TvUserNameNavi"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="18dp"
+            android:visibility="gone"
+            android:layout_marginLeft="40dp"
+            android:text="728xxxxxxx"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:id="@+id/TvUserNaviSeverity"
+            android:layout_below="@+id/TvUserNameNavi"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="18dp"
+            android:visibility="gone"
+            android:layout_marginLeft="40dp"
+            android:text="728xxxxxxx"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/quantum_grey300"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></View>
+
+    <LinearLayout
+        android:id="@+id/LLNavi_Profile"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <ImageView
+            android:id="@+id/ProfileImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_profile_holder"></ImageView>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="16dp"
+            android:gravity="left|center_vertical"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/black"
+            android:text="Profile"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout>
+    <View
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/quantum_grey300"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></View>
+    <LinearLayout
+        android:id="@+id/LLNavi_Logout"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <ImageView
+            android:id="@+id/ImgLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_logout"></ImageView>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="16dp"
+            android:gravity="left|center_vertical"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/black"
+            android:text="Logout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout>
+
+
+</LinearLayout>

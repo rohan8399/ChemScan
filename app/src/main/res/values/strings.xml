@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Eat Healthy</string>
+    <string name="password">Enter Password</string>
+    <string name="username">Enter Username</string>
+    <string name="signup">Or sign Up using \n <u>SIGN UP</u></string>
+    <string name="report">Report</string>
+</resources>
